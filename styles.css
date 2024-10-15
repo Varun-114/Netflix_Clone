@@ -1,0 +1,82 @@
+*{
+    background-color: rgb(16, 15, 15);
+}
+
+.navbar img{
+    height:100px;
+    width:180px;
+    margin-right: 10px;
+}
+
+.navbar{
+    color: white;
+    display: flex;
+    align-items: center;
+    background-color: rgb(16, 15, 15);
+}
+
+.nav-item{
+    cursor: pointer;
+}
+
+.text{
+    padding-left: 40px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.movies{
+    display: flex;
+    gap: 10px;
+    padding-left: 40px;
+}
+
+.movies img {
+    width: 285px; 
+    height: 200px; 
+    border-radius: 15px; 
+    object-fit: cover;  
+    cursor: pointer;
+}
+
+.list{
+    display: flex;
+    gap: 10px;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+.list img {
+    width: 285px; 
+    height: 200px; 
+    border-radius: 15px; 
+    object-fit: cover;  
+    cursor: pointer;
+}
+
+i{
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.navbar .account{
+    padding-left: 500px;
+    cursor: pointer;
+}
+
+.navbar .nav-item1{
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.footer {
+    background-color:  rgb(16, 15, 15); 
+    color: rgb(247, 0, 0);
+    text-align: center;
+    padding: 10px; 
+    position: fixed; 
+    bottom: 0;
+    width: 100%;
+    font-weight: bold;
+}
